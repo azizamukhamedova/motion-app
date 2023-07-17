@@ -1,4 +1,4 @@
-package com.example.storyapp
+package com.jafton.motionapp
 
 import io.flutter.embedding.android.FlutterActivity
 
