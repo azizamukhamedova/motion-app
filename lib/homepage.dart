@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       body: Container(
-        color: Color.fromARGB(255, 1, 101, 78),
+        color: Color.fromARGB(255, 38, 6, 77),
         child: Center(
           child: Column(
             children: [

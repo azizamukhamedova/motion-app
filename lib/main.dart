@@ -21,10 +21,12 @@ class MyApp extends StatelessWidget {
           dialogStyle: Platform.isIOS
               ? UpgradeDialogStyle.cupertino
               : UpgradeDialogStyle.material,
+          durationUntilAlertAgain: const Duration(minutes: 1),
           showIgnore: false,
           showLater: false,
           canDismissDialog: false,
           shouldPopScope: () => false,
+          showReleaseNotes: false,
         ),
         child: HomePage(),
       ),
